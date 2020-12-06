@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register form 01.png</title>
+</head>
+<body>
+    <form action="http://www.example.com/form01.phg">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label>Name:<br/><input type="text" name="name" /></label><br/>
+            <label>Email:<br/><input type="text" name="email" /></label><br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Your Review</legend>
+            <p>How did you hear about us?
+                <select multiple="multiple" size="1">
+                    <option value="Google" selected="selected">Google</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Advert">Adver</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>Would you visit again?</p>
+            <input type="radio" name="luachon" value="yes" /> yes
+            <input type="radio" name="luachon" value="no" /> No
+            <input type="radio" name="luachon" value="maybe" /> Maybe
+
+            <p>Comments:</p>
+            <textarea name="comments" rows="3" cols="40">
+            </textarea>
+            <br/>
+            <input type="checkbox" name="Sign me up for email updates" value="Sign me up for email updates" checked/>Sign me up for email updates
+            <br/>
+            <input type="submit" value="Submit review">
+        </fieldset>
+    </form>
+</body>
+</html>
