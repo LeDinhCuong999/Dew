@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists, Tables and Forms</title>
+    <style type="text/css">
+        body {
+            color: #666666;
+        }
+        table {
+            height: 200px;
+            font-size: 15px;
+            background-color: #E2E9EF;
+            text-align: left;
+            border-spacing: 0px;
+        }
+        thead{
+            background-color: #97B4D3;
+            color: white;
+            text-align: center;
+            border-spacing: 0px;
+            box-shadow: inset 0px -2px #5D7C9D;
+        }
+        thead th{
+            border-right: 1px solid #7C9ABB;
+        }
+        .th {
+            width: 250px;
+        }
+        td {
+            width: 130px;
+        }
+        li {
+            list-style-image: url("../Poetry Workshop/Poetry Workshop/images/icon-plus.png");
+        }
+
+        tbody th, td {
+            border-right: 1px solid #CCD2D7;
+            border-bottom: 1px solid #CCD2D7;
+        }
+        fieldset {
+            width: 270px;
+            margin-top: 20px;
+        }
+        input {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .submit {
+            margin-left: 200px;
+            border-radius: 5px;
+            background-color: #009966;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Poetry Workshops</h1>
+    <p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+    <p>Please note that the following events are free to members</p>
+    <ul>
+        <li>A Poetic Perspective</li>
+        <li>Walt Whitman at War</li>
+        <li>Found Poems and Outsider Poetry</li>
+    </ul>
+        <table>
+            <thead>
+            <tr>
+                <th class="th"></th>
+                <th>New York</th>
+                <th>Chicago</th>
+                <th>San Francisco</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th class="th">A Poetic Perspective</th>
+                <td>Sat, 4 Feb 2021<br/> 11am-2pm</td>
+                <td>Sat, 3 Mar 2021<br/> 11am-2pm</td>
+                <td>Sat, 12 Mar 2021<br/> 11am-2pm</td>
+            </tr>
+            <tr>
+                <th class="th">Walt Whitman at War</th>
+                <td>Sat, 7 Apr 2021<br/> 11am-1pm</td>
+                <td>Sat, 5 May 2021<br/> 11am-1pm</td>
+                <td>Sat, 19 May 2021<br/> 11am-1pm</td>
+            </tr>
+            <tr>
+                <th class="th">Found Poems & Outsider Poetry</th>
+                <td>Sat, 9 Jun 2021<br/> 11am-2pm</td>
+                <td>Sat, 7 Jul 2021<br/> 11am-2pm</td>
+                <td>Sat, 21 Jul 2021<br/> 11am-2pm</td>
+            </tr>
+            <tr>
+                <th class="th">Natural Death: An Exploration</th>
+                <td>Sat, 4 Aug 2021<br/> 11am-4pm</td>
+                <td>Sat, 8 Sep 2021<br/> 11am-4pm</td>
+                <td>Sat, 15 Sep 2021<br/> 11am-4pm</td>
+            </tr>
+            </tbody>
+        </table>
+    <form>
+        <fieldset>
+            <legend><i>Register your interest</i></legend>
+            <label>Your name:
+                <input type="text" size="20" width="20px">
+            </label>
+            <br/><label>Your email:
+                <input type="email" size="20" width="30px">
+            </label>
+            <br/><br/><label>Your closest center:
+            <select id="no2" size="1" multiple="multiple">
+                <option>New York</option>
+                <option>Chicago</option>
+                <option>San Francisco</option>
+            </select>
+            </label>
+            <br/><label>Are you a member?
+                <input type="radio" name="Yes">Yes
+                <input type="radio" name="No">No
+            </label>
+        </fieldset>
+            <input type="submit" value="Register" class="submit">
+    </form>
+</body>
+</html>
