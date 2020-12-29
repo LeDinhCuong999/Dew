@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me</title>
+    <style>
+        #ques {
+            position: absolute;
+            left: 220px;
+            top: 175px;
+            width: auto;
+            height: 210px;
+        }
+        #yes {
+            position: absolute;
+            left: 285px;
+            top: 235px;
+            width: 210px;
+            height: 210px;
+        }
+        #no {
+            position: absolute;
+            left: 360px;
+            top: 235px;
+            width: 210px;
+            height: 210px;
+        }
+    </style>
+    <script style="text-align: center">
+        flag=1
+
+        function yes() {
+            alert("Mot lua chon dung dan:)). Em se khong hoi han dau!!")
+        }
+        
+        function love() {
+            if (flag==1) {
+                no.style.top=90;
+                no.style.left=500;
+                flag=2;
+            }
+            else if (flag==2) {
+                no.style.top=200;
+                no.style.left=70;
+                flag=3;
+            }
+            else if (flag==3) {
+                no.style.top=320;
+                no.style.left=750;
+                flag=1;
+            }
+        }
+    </script>
+</head>
+<body>
+<h1 id="ques">Hey babe, Lam ngiu anh nhe :V yeu anh la chan ai!</h1>
+<div id="yes">
+    <input type="button" value="YES" onclick="yes()" />
+</div>
+<div id="no" style="position: absolute; left: 360px; top: 235px; width: 210px; height: 210px;">
+    <input type="button" value="NO" onmouseover="love()" />
+</div>
+</body>
+</html>
