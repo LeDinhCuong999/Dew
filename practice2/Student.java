@@ -13,6 +13,10 @@ public class Student {
         this.phone = phone;
     }
 
+    public static Student createStudent(String studentId,String studentName,String address,int phone){
+        return new Student(studentId,studentName,address,phone);
+    }
+
     public String getStudentId() {
         return studentId;
     }
