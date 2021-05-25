@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+    Document    : AnnualDay.xml
+    Author      : vincent
+    Description :
+        Describes about the Annual Day.
+-->
+
+<Annual_Day company="Aptech">
+    <Event>
+        <Coordinator>
+            James
+        </Coordinator>
+        <SoundManager>
+            Kim
+        </SoundManager>
+        <Director>
+            Daniel
+        </Director>
+    </Event>
+    <Event>
+        Drama
+        <Name>
+            A doctor's story.
+        </Name>
+        <Director>Spencor</Director>
+        <Participants number="4">Tony,Bony,Sam,Lily</Participants>
+    </Event>
+    <Event>
+        Group Song
+        <Theme>Patriotic</Theme>
+        <Composer>Chin Chan</Composer>
+        <Participants number="3">Rose,Jack,Steve</Participants>
+    </Event>
+</Annual_Day>
