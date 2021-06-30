@@ -1,0 +1,13 @@
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\bin\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.exe
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\bin\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.deps.json
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\bin\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.runtimeconfig.json
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\bin\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.runtimeconfig.dev.json
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\bin\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.dll
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\bin\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.pdb
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.csproj.AssemblyReference.cache
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.AssemblyInfoInputs.cache
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.AssemblyInfo.cs
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.csproj.CoreCompileInputs.cache
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.dll
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.pdb
+D:\project C#\DemoPC1\ImplicitlyTypedAndAnonymous_Types\obj\Debug\netcoreapp3.1\ImplicitlyTypedAndAnonymous_Types.genruntimeconfig.cache

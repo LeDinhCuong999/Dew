@@ -1,0 +1,13 @@
+D:\project C#\DemoPC1\DemoPC1\bin\Debug\netcoreapp3.1\DemoPC1.exe
+D:\project C#\DemoPC1\DemoPC1\bin\Debug\netcoreapp3.1\DemoPC1.deps.json
+D:\project C#\DemoPC1\DemoPC1\bin\Debug\netcoreapp3.1\DemoPC1.runtimeconfig.json
+D:\project C#\DemoPC1\DemoPC1\bin\Debug\netcoreapp3.1\DemoPC1.runtimeconfig.dev.json
+D:\project C#\DemoPC1\DemoPC1\bin\Debug\netcoreapp3.1\DemoPC1.dll
+D:\project C#\DemoPC1\DemoPC1\bin\Debug\netcoreapp3.1\DemoPC1.pdb
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.csproj.AssemblyReference.cache
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.AssemblyInfoInputs.cache
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.AssemblyInfo.cs
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.csproj.CoreCompileInputs.cache
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.dll
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.pdb
+D:\project C#\DemoPC1\DemoPC1\obj\Debug\netcoreapp3.1\DemoPC1.genruntimeconfig.cache

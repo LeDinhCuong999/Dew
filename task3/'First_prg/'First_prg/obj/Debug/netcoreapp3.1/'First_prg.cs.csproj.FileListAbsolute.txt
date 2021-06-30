@@ -1,0 +1,12 @@
+D:\project C#\'First_prg\'First_prg\bin\Debug\netcoreapp3.1\'First_prg.cs.exe
+D:\project C#\'First_prg\'First_prg\bin\Debug\netcoreapp3.1\'First_prg.cs.deps.json
+D:\project C#\'First_prg\'First_prg\bin\Debug\netcoreapp3.1\'First_prg.cs.runtimeconfig.json
+D:\project C#\'First_prg\'First_prg\bin\Debug\netcoreapp3.1\'First_prg.cs.runtimeconfig.dev.json
+D:\project C#\'First_prg\'First_prg\bin\Debug\netcoreapp3.1\'First_prg.cs.dll
+D:\project C#\'First_prg\'First_prg\bin\Debug\netcoreapp3.1\'First_prg.cs.pdb
+D:\project C#\'First_prg\'First_prg\obj\Debug\netcoreapp3.1\'First_prg.cs.AssemblyInfoInputs.cache
+D:\project C#\'First_prg\'First_prg\obj\Debug\netcoreapp3.1\'First_prg.cs.AssemblyInfo.cs
+D:\project C#\'First_prg\'First_prg\obj\Debug\netcoreapp3.1\'First_prg.cs.csproj.CoreCompileInputs.cache
+D:\project C#\'First_prg\'First_prg\obj\Debug\netcoreapp3.1\'First_prg.cs.dll
+D:\project C#\'First_prg\'First_prg\obj\Debug\netcoreapp3.1\'First_prg.cs.pdb
+D:\project C#\'First_prg\'First_prg\obj\Debug\netcoreapp3.1\'First_prg.cs.genruntimeconfig.cache

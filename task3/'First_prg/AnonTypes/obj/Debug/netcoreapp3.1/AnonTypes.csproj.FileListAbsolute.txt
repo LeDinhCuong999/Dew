@@ -1,0 +1,12 @@
+D:\project C#\'First_prg\AnonTypes\bin\Debug\netcoreapp3.1\AnonTypes.exe
+D:\project C#\'First_prg\AnonTypes\bin\Debug\netcoreapp3.1\AnonTypes.deps.json
+D:\project C#\'First_prg\AnonTypes\bin\Debug\netcoreapp3.1\AnonTypes.runtimeconfig.json
+D:\project C#\'First_prg\AnonTypes\bin\Debug\netcoreapp3.1\AnonTypes.runtimeconfig.dev.json
+D:\project C#\'First_prg\AnonTypes\bin\Debug\netcoreapp3.1\AnonTypes.dll
+D:\project C#\'First_prg\AnonTypes\bin\Debug\netcoreapp3.1\AnonTypes.pdb
+D:\project C#\'First_prg\AnonTypes\obj\Debug\netcoreapp3.1\AnonTypes.AssemblyInfoInputs.cache
+D:\project C#\'First_prg\AnonTypes\obj\Debug\netcoreapp3.1\AnonTypes.AssemblyInfo.cs
+D:\project C#\'First_prg\AnonTypes\obj\Debug\netcoreapp3.1\AnonTypes.csproj.CoreCompileInputs.cache
+D:\project C#\'First_prg\AnonTypes\obj\Debug\netcoreapp3.1\AnonTypes.dll
+D:\project C#\'First_prg\AnonTypes\obj\Debug\netcoreapp3.1\AnonTypes.pdb
+D:\project C#\'First_prg\AnonTypes\obj\Debug\netcoreapp3.1\AnonTypes.genruntimeconfig.cache

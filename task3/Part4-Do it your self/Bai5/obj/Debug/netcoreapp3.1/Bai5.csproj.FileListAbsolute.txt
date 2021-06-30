@@ -1,0 +1,12 @@
+D:\project C#\Part4-Do it your self\Bai5\bin\Debug\netcoreapp3.1\Bai5.exe
+D:\project C#\Part4-Do it your self\Bai5\bin\Debug\netcoreapp3.1\Bai5.deps.json
+D:\project C#\Part4-Do it your self\Bai5\bin\Debug\netcoreapp3.1\Bai5.runtimeconfig.json
+D:\project C#\Part4-Do it your self\Bai5\bin\Debug\netcoreapp3.1\Bai5.runtimeconfig.dev.json
+D:\project C#\Part4-Do it your self\Bai5\bin\Debug\netcoreapp3.1\Bai5.dll
+D:\project C#\Part4-Do it your self\Bai5\bin\Debug\netcoreapp3.1\Bai5.pdb
+D:\project C#\Part4-Do it your self\Bai5\obj\Debug\netcoreapp3.1\Bai5.AssemblyInfoInputs.cache
+D:\project C#\Part4-Do it your self\Bai5\obj\Debug\netcoreapp3.1\Bai5.AssemblyInfo.cs
+D:\project C#\Part4-Do it your self\Bai5\obj\Debug\netcoreapp3.1\Bai5.csproj.CoreCompileInputs.cache
+D:\project C#\Part4-Do it your self\Bai5\obj\Debug\netcoreapp3.1\Bai5.dll
+D:\project C#\Part4-Do it your self\Bai5\obj\Debug\netcoreapp3.1\Bai5.pdb
+D:\project C#\Part4-Do it your self\Bai5\obj\Debug\netcoreapp3.1\Bai5.genruntimeconfig.cache

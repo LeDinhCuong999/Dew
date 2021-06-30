@@ -1,0 +1,12 @@
+D:\project C#\'First_prg\DateTimeFormat\bin\Debug\netcoreapp3.1\DateTimeFormat.exe
+D:\project C#\'First_prg\DateTimeFormat\bin\Debug\netcoreapp3.1\DateTimeFormat.deps.json
+D:\project C#\'First_prg\DateTimeFormat\bin\Debug\netcoreapp3.1\DateTimeFormat.runtimeconfig.json
+D:\project C#\'First_prg\DateTimeFormat\bin\Debug\netcoreapp3.1\DateTimeFormat.runtimeconfig.dev.json
+D:\project C#\'First_prg\DateTimeFormat\bin\Debug\netcoreapp3.1\DateTimeFormat.dll
+D:\project C#\'First_prg\DateTimeFormat\bin\Debug\netcoreapp3.1\DateTimeFormat.pdb
+D:\project C#\'First_prg\DateTimeFormat\obj\Debug\netcoreapp3.1\DateTimeFormat.AssemblyInfoInputs.cache
+D:\project C#\'First_prg\DateTimeFormat\obj\Debug\netcoreapp3.1\DateTimeFormat.AssemblyInfo.cs
+D:\project C#\'First_prg\DateTimeFormat\obj\Debug\netcoreapp3.1\DateTimeFormat.csproj.CoreCompileInputs.cache
+D:\project C#\'First_prg\DateTimeFormat\obj\Debug\netcoreapp3.1\DateTimeFormat.dll
+D:\project C#\'First_prg\DateTimeFormat\obj\Debug\netcoreapp3.1\DateTimeFormat.pdb
+D:\project C#\'First_prg\DateTimeFormat\obj\Debug\netcoreapp3.1\DateTimeFormat.genruntimeconfig.cache

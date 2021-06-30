@@ -1,0 +1,13 @@
+D:\project C#\DemoPC1\ValueAndReferencyType\bin\Debug\netcoreapp3.1\ValueAndReferencyType.exe
+D:\project C#\DemoPC1\ValueAndReferencyType\bin\Debug\netcoreapp3.1\ValueAndReferencyType.deps.json
+D:\project C#\DemoPC1\ValueAndReferencyType\bin\Debug\netcoreapp3.1\ValueAndReferencyType.runtimeconfig.json
+D:\project C#\DemoPC1\ValueAndReferencyType\bin\Debug\netcoreapp3.1\ValueAndReferencyType.runtimeconfig.dev.json
+D:\project C#\DemoPC1\ValueAndReferencyType\bin\Debug\netcoreapp3.1\ValueAndReferencyType.dll
+D:\project C#\DemoPC1\ValueAndReferencyType\bin\Debug\netcoreapp3.1\ValueAndReferencyType.pdb
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.csproj.AssemblyReference.cache
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.AssemblyInfoInputs.cache
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.AssemblyInfo.cs
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.csproj.CoreCompileInputs.cache
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.dll
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.pdb
+D:\project C#\DemoPC1\ValueAndReferencyType\obj\Debug\netcoreapp3.1\ValueAndReferencyType.genruntimeconfig.cache

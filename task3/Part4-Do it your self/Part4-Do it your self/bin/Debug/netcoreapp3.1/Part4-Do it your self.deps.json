@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Part4-Do it your self/1.0.0": {
+        "runtime": {
+          "Part4-Do it your self.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Part4-Do it your self/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

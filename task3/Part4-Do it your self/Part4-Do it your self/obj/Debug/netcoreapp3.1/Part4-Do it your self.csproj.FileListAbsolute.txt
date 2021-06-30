@@ -1,0 +1,13 @@
+D:\project C#\Part4-Do it your self\Part4-Do it your self\bin\Debug\netcoreapp3.1\Part4-Do it your self.exe
+D:\project C#\Part4-Do it your self\Part4-Do it your self\bin\Debug\netcoreapp3.1\Part4-Do it your self.deps.json
+D:\project C#\Part4-Do it your self\Part4-Do it your self\bin\Debug\netcoreapp3.1\Part4-Do it your self.runtimeconfig.json
+D:\project C#\Part4-Do it your self\Part4-Do it your self\bin\Debug\netcoreapp3.1\Part4-Do it your self.runtimeconfig.dev.json
+D:\project C#\Part4-Do it your self\Part4-Do it your self\bin\Debug\netcoreapp3.1\Part4-Do it your self.dll
+D:\project C#\Part4-Do it your self\Part4-Do it your self\bin\Debug\netcoreapp3.1\Part4-Do it your self.pdb
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.csproj.AssemblyReference.cache
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.AssemblyInfoInputs.cache
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.AssemblyInfo.cs
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.csproj.CoreCompileInputs.cache
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.dll
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.pdb
+D:\project C#\Part4-Do it your self\Part4-Do it your self\obj\Debug\netcoreapp3.1\Part4-Do it your self.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\project C#\Part4-Do it your self\bai2\bin\Debug\netcoreapp3.1\bai2.exe
+D:\project C#\Part4-Do it your self\bai2\bin\Debug\netcoreapp3.1\bai2.deps.json
+D:\project C#\Part4-Do it your self\bai2\bin\Debug\netcoreapp3.1\bai2.runtimeconfig.json
+D:\project C#\Part4-Do it your self\bai2\bin\Debug\netcoreapp3.1\bai2.runtimeconfig.dev.json
+D:\project C#\Part4-Do it your self\bai2\bin\Debug\netcoreapp3.1\bai2.dll
+D:\project C#\Part4-Do it your self\bai2\bin\Debug\netcoreapp3.1\bai2.pdb
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.csproj.AssemblyReference.cache
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.AssemblyInfoInputs.cache
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.AssemblyInfo.cs
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.csproj.CoreCompileInputs.cache
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.dll
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.pdb
+D:\project C#\Part4-Do it your self\bai2\obj\Debug\netcoreapp3.1\bai2.genruntimeconfig.cache
