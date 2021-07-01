@@ -1,0 +1,12 @@
+D:\project C#\session6\session6\bin\Debug\netcoreapp3.1\Students.exe
+D:\project C#\session6\session6\bin\Debug\netcoreapp3.1\Students.deps.json
+D:\project C#\session6\session6\bin\Debug\netcoreapp3.1\Students.runtimeconfig.json
+D:\project C#\session6\session6\bin\Debug\netcoreapp3.1\Students.runtimeconfig.dev.json
+D:\project C#\session6\session6\bin\Debug\netcoreapp3.1\Students.dll
+D:\project C#\session6\session6\bin\Debug\netcoreapp3.1\Students.pdb
+D:\project C#\session6\session6\obj\Debug\netcoreapp3.1\Students.AssemblyInfoInputs.cache
+D:\project C#\session6\session6\obj\Debug\netcoreapp3.1\Students.AssemblyInfo.cs
+D:\project C#\session6\session6\obj\Debug\netcoreapp3.1\Students.csproj.CoreCompileInputs.cache
+D:\project C#\session6\session6\obj\Debug\netcoreapp3.1\Students.dll
+D:\project C#\session6\session6\obj\Debug\netcoreapp3.1\Students.pdb
+D:\project C#\session6\session6\obj\Debug\netcoreapp3.1\Students.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+D:\project C#\session6\C_S_12\bin\Debug\netcoreapp3.1\C_S_12.exe
+D:\project C#\session6\C_S_12\bin\Debug\netcoreapp3.1\C_S_12.deps.json
+D:\project C#\session6\C_S_12\bin\Debug\netcoreapp3.1\C_S_12.runtimeconfig.json
+D:\project C#\session6\C_S_12\bin\Debug\netcoreapp3.1\C_S_12.runtimeconfig.dev.json
+D:\project C#\session6\C_S_12\bin\Debug\netcoreapp3.1\C_S_12.dll
+D:\project C#\session6\C_S_12\bin\Debug\netcoreapp3.1\C_S_12.pdb
+D:\project C#\session6\C_S_12\obj\Debug\netcoreapp3.1\C_S_12.AssemblyInfoInputs.cache
+D:\project C#\session6\C_S_12\obj\Debug\netcoreapp3.1\C_S_12.AssemblyInfo.cs
+D:\project C#\session6\C_S_12\obj\Debug\netcoreapp3.1\C_S_12.csproj.CoreCompileInputs.cache
+D:\project C#\session6\C_S_12\obj\Debug\netcoreapp3.1\C_S_12.dll
+D:\project C#\session6\C_S_12\obj\Debug\netcoreapp3.1\C_S_12.pdb
+D:\project C#\session6\C_S_12\obj\Debug\netcoreapp3.1\C_S_12.genruntimeconfig.cache

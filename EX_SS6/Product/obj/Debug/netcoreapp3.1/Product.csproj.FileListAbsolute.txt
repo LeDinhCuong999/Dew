@@ -1,0 +1,13 @@
+D:\project C#\session6\Product\bin\Debug\netcoreapp3.1\Product.exe
+D:\project C#\session6\Product\bin\Debug\netcoreapp3.1\Product.deps.json
+D:\project C#\session6\Product\bin\Debug\netcoreapp3.1\Product.runtimeconfig.json
+D:\project C#\session6\Product\bin\Debug\netcoreapp3.1\Product.runtimeconfig.dev.json
+D:\project C#\session6\Product\bin\Debug\netcoreapp3.1\Product.dll
+D:\project C#\session6\Product\bin\Debug\netcoreapp3.1\Product.pdb
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.csproj.AssemblyReference.cache
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.AssemblyInfoInputs.cache
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.AssemblyInfo.cs
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.csproj.CoreCompileInputs.cache
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.dll
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.pdb
+D:\project C#\session6\Product\obj\Debug\netcoreapp3.1\Product.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\project C#\session6\OptionalParameterExample\bin\Debug\netcoreapp3.1\OptionalParameterExample.exe
+D:\project C#\session6\OptionalParameterExample\bin\Debug\netcoreapp3.1\OptionalParameterExample.deps.json
+D:\project C#\session6\OptionalParameterExample\bin\Debug\netcoreapp3.1\OptionalParameterExample.runtimeconfig.json
+D:\project C#\session6\OptionalParameterExample\bin\Debug\netcoreapp3.1\OptionalParameterExample.runtimeconfig.dev.json
+D:\project C#\session6\OptionalParameterExample\bin\Debug\netcoreapp3.1\OptionalParameterExample.dll
+D:\project C#\session6\OptionalParameterExample\bin\Debug\netcoreapp3.1\OptionalParameterExample.pdb
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.csproj.AssemblyReference.cache
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.AssemblyInfoInputs.cache
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.AssemblyInfo.cs
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.csproj.CoreCompileInputs.cache
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.dll
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.pdb
+D:\project C#\session6\OptionalParameterExample\obj\Debug\netcoreapp3.1\OptionalParameterExample.genruntimeconfig.cache
