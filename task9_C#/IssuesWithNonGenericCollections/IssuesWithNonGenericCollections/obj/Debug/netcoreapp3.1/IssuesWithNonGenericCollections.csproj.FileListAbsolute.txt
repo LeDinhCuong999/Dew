@@ -1,0 +1,13 @@
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\bin\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.exe
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\bin\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.deps.json
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\bin\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.runtimeconfig.json
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\bin\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.runtimeconfig.dev.json
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\bin\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.dll
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\bin\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.pdb
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.csproj.AssemblyReference.cache
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.AssemblyInfoInputs.cache
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.AssemblyInfo.cs
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.csproj.CoreCompileInputs.cache
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.dll
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.pdb
+D:\C#\IssuesWithNonGenericCollections\IssuesWithNonGenericCollections\obj\Debug\netcoreapp3.1\IssuesWithNonGenericCollections.genruntimeconfig.cache
