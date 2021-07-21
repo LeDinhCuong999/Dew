@@ -1,0 +1,13 @@
+D:\C#\GeometryExample\Animal\bin\Debug\netcoreapp3.1\Animal.exe
+D:\C#\GeometryExample\Animal\bin\Debug\netcoreapp3.1\Animal.deps.json
+D:\C#\GeometryExample\Animal\bin\Debug\netcoreapp3.1\Animal.runtimeconfig.json
+D:\C#\GeometryExample\Animal\bin\Debug\netcoreapp3.1\Animal.runtimeconfig.dev.json
+D:\C#\GeometryExample\Animal\bin\Debug\netcoreapp3.1\Animal.dll
+D:\C#\GeometryExample\Animal\bin\Debug\netcoreapp3.1\Animal.pdb
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.csproj.AssemblyReference.cache
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.AssemblyInfoInputs.cache
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.AssemblyInfo.cs
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.csproj.CoreCompileInputs.cache
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.dll
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.pdb
+D:\C#\GeometryExample\Animal\obj\Debug\netcoreapp3.1\Animal.genruntimeconfig.cache
