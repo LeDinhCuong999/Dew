@@ -2,6 +2,8 @@
 <html lang="zxx">
 
 <head>
+    <base href="{{ asset('/') }}">
+
     <meta charset="UTF-8">
     <meta name="description" content="codelean Template">
     <meta name="keywords" content="codelean, unica, creative, html">
@@ -13,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
+    <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="front/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="front/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="front/css/themify-icons.css" type="text/css">
@@ -50,8 +54,8 @@
                 <a href="login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
                 <div class="lan-selector">
                     <select class="language_drop" name="countries" id="countries" style="width: 300px">
-                        <option value="yt" data-image="img/flag-1.jpg" data-imagecss="flag yt" data-title="English">English</option>
-                        <option value="yu" data-image="img/flag-2.jpg" data-imagecss="flag yu" data-title="Bangladesh">German</option>
+                        <option value="yt" data-image="front/img/flag-1.jpg" data-imagecss="flag yt" data-title="English">English</option>
+                        <option value="yu" data-image="front/img/flag-2.jpg" data-imagecss="flag yu" data-title="Bangladesh">German</option>
                     </select>
                 </div>
                 <div class="top-social">
@@ -69,20 +73,22 @@
                 <div class="col-log-2 col-md-2">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="img/logo.png" height="25" alt="">
+                            <img src="front/img/logo.png" height="25" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7">
-                    <div class="advanced-search">
-                        <button type="button" class="category-btn">All Categories</button>
-                        <div class="input-group">
-                            <input type="text" placeholder="What do you need">
-                            <button type="button"><i class="ti-search"></i></button>
+                    <form action="shop">
+                        <div class="advanced-search">
+                            <button type="button" class="category-btn">All Categories</button>
+                            <div class="input-group">
+                                <input name="search" type="text" value="{{ request('search') }}" placeholder="What do you need?">
+                                <button type="submit"><i class="ti-search"></i></button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
-                <div class="col-lg-3 col-lg-3">
+                <div class="col-lg-3 text-right col-md-3">
                     <ul class="nav-right">
                         <li class="heart-icon">
                             <a href="#">
@@ -91,40 +97,42 @@
                             </a>
                         </li>
                         <li class="cart-icon">
-                            <a href="#">
-                                <i class="icon_heart_alt"></i>
-                                <span>3</span>
+                            <a href="./cart">
+                                <i class="icon_bag_alt"></i>
+                                <span>{{ Cart::count() }}</span>
                             </a>
                             <div class="cart-hover">
                                 <div class="select-items">
                                     <table>
                                         <tbody>
-                                        <tr>
-                                            <td class="si-pic"><img src="img/select-product-1.jpg"></td>
-                                            <td class="si-text">
-                                                <div class="product-selected">
-                                                    <p>$60.00 x 1</p>
-                                                    <h6>kabino Bedside Table</h6>
-                                                </div>
-                                            </td>
-                                            <td class="si-close">
-                                                <i class="ti-close"></i>
-                                            </td>
-                                        </tr>
+                                            @foreach(Cart::content() as $cart)
+                                                <tr>
+                                                    <td class="si-pic"><img style="height: 70px" src="front/img/products/{{ $cart->options->images[0]->path }}" alt=""></td>
+                                                    <td class="si-text">
+                                                        <div class="product-selected">
+                                                            <p>${{ number_format($cart->price, 2) }} x {{ $cart->qty }}</p>
+                                                            <h6>{{ $cart->name }}</h6>
+                                                        </div>
+                                                    </td>
+                                                    <td class="si-close">
+                                                        <i onclick="window.location='./cart/delete/{{ $cart->rowId }}'" class="ti-close"></i>
+                                                    </td>
+                                                </tr>
+                                            @endforeach
                                         </tbody>
                                     </table>
                                 </div>
                                 <div class="select-total">
                                     <span>total:</span>
-                                    <h5>$12 0.00</h5>
+                                    <h5>${{ Cart::total() }}</h5>
                                 </div>
                                 <div class="select-button"  >
-                                    <a href="shopping-cart.html" class="primary-btn view-card">VIEW CARD</a>
-                                    <a href="check-out.html" class="primary-btn checkout-btn">CHECK OUT</a>
+                                    <a href="./cart" class="primary-btn view-card">VIEW CARD</a>
+                                    <a href="./checkout" class="primary-btn checkout-btn">CHECK OUT</a>
                                 </div>
                             </div>
                         </li>
-                        <li class="card-price">$150.00</li>
+                        <li class="card-price">${{ Cart::total() }}</li>
                     </ul>
                 </div>
             </div>
@@ -148,10 +156,10 @@
                     </ul>
                 </div>
             </div>
-            <nav class="nav-menu mobile-menu"   >
+            <nav class="nav-menu mobile-menu">
                 <ul>
-                    <li><a href="index.html">Home</a> </li>
-                    <li ><a href="shop.html">Shop</a> </li>
+                    <li class="{{ (request()->segment(1) == '') ? 'active' : '' }}"><a href="./">Home</a> </li>
+                    <li class="{{ (request()->segment(1) == 'shop') ? 'active' : '' }}"><a href="./shop">Shop</a> </li>
                     <li><a href="">Collection</a>
                         <ul class="dropdown">
                             <li><a href="">Men's</a></li>
@@ -159,8 +167,8 @@
                             <li><a href="">KId's</a></li>
                         </ul>
                     </li>
-                    <li class="active"><a href="blog.html">Blog</a> </li>
-                    <li><a href="contact.html">Contract</a> </li>
+                    <li class="{{ (request()->segment(1) == 'blog') ? 'active' : '' }}"><a href="./blog">Blog</a> </li>
+                    <li class="{{ (request()->segment(1) == 'contact') ? 'active' : '' }}"><a href="./contact">Contact</a> </li>
                     <li><a href="">Pages</a>
                         <ul class="dropdown">
                             <li><a href="blog-details.html">Blog Details</a></li>
@@ -191,27 +199,27 @@
         <div class="Logo-carousel owl-carousel">
             <div class="logo-item">
                 <div class="tablecell-inner">
-                    <img src="img/logo-carousel/logo-1.png" alt=""/>
+                    <img src="front/img/logo-carousel/logo-1.png" alt=""/>
                 </div>
             </div>
             <div class="logo-item">
                 <div class="tablecell-inner">
-                    <img src="img/logo-carousel/logo-2.png" alt=""/>
+                    <img src="front/img/logo-carousel/logo-2.png" alt=""/>
                 </div>
             </div>
             <div class="logo-item">
                 <div class="tablecell-inner">
-                    <img src="img/logo-carousel/logo-3.png" alt=""/>
+                    <img src="front/img/logo-carousel/logo-3.png" alt=""/>
                 </div>
             </div>
             <div class="logo-item">
                 <div class="tablecell-inner">
-                    <img src="img/logo-carousel/logo-4.png" alt=""/>
+                    <img src="front/img/logo-carousel/logo-4.png" alt=""/>
                 </div>
             </div>
             <div class="logo-item">
                 <div class="tablecell-inner">
-                    <img src="img/logo-carousel/logo-5.png" alt=""/>
+                    <img src="front/img/logo-carousel/logo-5.png" alt=""/>
                 </div>
             </div>
         </div>
@@ -227,7 +235,7 @@
                 <div class="footer-left">
                     <div class="footer-logo">
                         <a href="index.html">
-                            <img src="img/footer-logo.png" height="25" alt="">
+                            <img src="front/img/footer-logo.png" height="25" alt="">
                         </a>
                     </div>
                     <ul>
@@ -285,7 +293,7 @@
                         ....
                     </div>
                     <div class="payment-pic">
-                        <img src="img/payment-method.png" alt="">
+                        <img src="front/img/payment-method.png" alt="">
                     </div>
                 </div>
             </div>
@@ -295,19 +303,19 @@
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/jquery.countdown.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery.zoom.min.js"></script>
-<script src="js/jquery.dd.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src="front/js/jquery-3.3.1.min.js"></script>
+<script src="front/js/bootstrap.min.js"></script>
+<script src="front/js/jquery-ui.min.js"></script>
+<script src="front/js/jquery.countdown.min.js"></script>
+<script src="front/js/jquery.nice-select.min.js"></script>
+<script src="front/js/jquery.zoom.min.js"></script>
+<script src="front/js/jquery.dd.min.js"></script>
+<script src="front/js/jquery.slicknav.js"></script>
+<script src="front/js/owl.carousel.min.js"></script>
 
-<script src="js/owlcarousel2-filter.min.js"></script>
+<script src="front/js/owlcarousel2-filter.min.js"></script>
 
-<script src="js/main.js"></script>
+<script src="front/js/main.js"></script>
 </body>
 
 </html>
