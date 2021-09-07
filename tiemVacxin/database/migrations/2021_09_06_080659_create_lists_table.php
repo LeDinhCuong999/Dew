@@ -16,12 +16,12 @@ class CreateListsTable extends Migration
         Schema::create('lists', function (Blueprint $table) {
             $table->id();
 
-            $table->string('số cmnd/cccd');
-            $table->string('họ và tên');
-            $table->string('ngày tháng năm sinh');
-            $table->string('địa chỉ');
-            $table->string('số điện thoại');
-            $table->string('tiền sử dị ứng');
+            $table->string('cmnd');
+            $table->string('hovaten');
+            $table->string('ngaythangnamsinh');
+            $table->string('diachi');
+            $table->string('sdt');
+            $table->string('tiensudiung');
 
             $table->timestamps();
         });

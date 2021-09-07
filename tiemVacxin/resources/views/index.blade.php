@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>Index | DanhSach</title>
+    <title>Trangchu | DanhSach</title>
 </head>
 
 <body>
 <div>
-     <h2 align="center">ĐĂNG KÍ TIÊM VACXIN COVID</h2>
-    <form action="Commit" method="post">
+
+    <form action="commit" method="post">
         @csrf
+        <h2 align="center">ĐĂNG KÍ TIÊM VACXIN COVID</h2>
+
         <table cellspacing="3" cellpadding="12" align="center" border="4" bgcolor="#add8e6">
             <tr>
                 <td>Số cmnd/cccd</td>
@@ -47,38 +49,17 @@
     <br><br><br>
 
 
-    <?php
-    $cmnd = '';
-    if (!empty($_POST['cmnd'])) {
-        $cmnd = $_POST['cmnd'];
-        echo "Finding record, {$_POST['cmnd']}, and Result";
-    }
-    ?>
-    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        Nhập số cmnd của bạn: <input type="text" name="cmnd" />
-        <input type="submit" value="Search"/>
+
+    <form action="search" method="get">
+        Nhập số cmnd của bạn: <input type="search" name="search" />
+        <button type="submit" value="Search">Search</button>
     </form>
     <br><br>
 
-    <?php
-    $myDB = new mysqli('localhost', 'root', '', 'tiem_vacxin');
-    if ($myDB->connect_error)
-    {
-        die('Connect Error (' . $myDB->connect_error . ') '
-            . $myDB->connect_error);
-    }
 
-    if ($cmnd != '') {
-        $sql = "SELECT * FROM lists
-        WHERE cmnd LIKE '%{$cmnd}%'
-        ORDER BY cmnd";
-    }else{
-        $sql = "SELECT * FROM lists";
-    }
 
-    $result = $myDB->query($sql);
-    ?>
 
+{{--    --}}
     <table cellspacing="3" cellpadding="20" align="center" border="6" bgcolor="#fff8dc">
 
         <tr>
@@ -95,25 +76,17 @@
             <td align="center">sdt</td>
             <td align="center">tiensudiung</td>
         </tr>
-        <?php
-        while ($row = $result->fetch_assoc() ) {
-            echo "<tr>";
-            echo "<td align='center'>";
-            echo $row["cmnd"];
-            echo "</td><td>";
-            echo $row["hovaten"];
-            echo "</td><td>";
-            echo $row["ngaythangnamsinh"];
-            echo "</td><td>";
-            echo $row["diachi"];
-            echo "</td><td>";
-            echo $row["sdt"];
-            echo "</td><td>";
-            echo $row["tiensudiung"];
-            echo "</td>";
-            echo "</tr>";
-        }
-        ?>
+
+        @foreach($lists as $list)
+        <tr>
+            <td>{{$list['cmnd']}}</td>
+            <td>{{$list['hovaten']}}</td>
+            <td>{{$list['ngaythangnamsinh']}}</td>
+            <td>{{$list['diachi']}}</td>
+            <td>{{$list['sdt']}}</td>
+            <td>{{$list['tiensudiung']}}</td>
+        </tr>
+        @endforeach
     </table>
 </div>
 </body>

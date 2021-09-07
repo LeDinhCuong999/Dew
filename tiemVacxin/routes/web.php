@@ -20,6 +20,12 @@ Route::get('/', function () {
 //    return \App\Models\Lists::all();
 });
 
-Route::post('Commit',[\App\Http\Controllers\ListsController::class, 'Commit']);
+Route::get('/',[\App\Http\Controllers\ListsController::class, 'index']);
 
-Route::post('Commit',[\App\Http\Controllers\ListsController::class, 'Commit']);
+Route::post('commit',[\App\Http\Controllers\ListsController::class, 'commit'])->name('commit');
+
+Route::post('/',[\App\Http\Controllers\HomeController::class,'index'])->name('index');
+
+Route::get('search',[\App\Http\Controllers\ListsController::class, 'search']);
+
+Route::get('viewtable',[\App\Http\Controllers\ListsController::class, 'viewtable']);
