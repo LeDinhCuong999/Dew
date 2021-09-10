@@ -18,6 +18,7 @@ class CreateNoithatTable extends Migration
             $table->string('name');
             $table->integer('price');
             $table->text('image');
+            $table->timestamps();
         });
     }
 

@@ -13,24 +13,24 @@
 <body>
     <form action="commit" method="post">
         @csrf
-        <h1 align="center">Luu Do Noi That</h1>
+        <h1 align="center">Them Do Noi That</h1>
 
-        <table cellspacing="3" cellpadding="12" align="center" border="4" bgcolor="#add8e6">
+        <table cellspacing="3" cellpadding="12" align="center" border="4" bgcolor="#dcdcdc">
             <tr>
                 <td>______name______</td>
-                <td><input type="text" name="name"></td>
+                <td><input type="text" name="name" placeholder="Enter name"></td>
             </tr>
             <tr>
                 <td>______price_______</td>
-                <td><input type="text" name="price"></td>
+                <td><input type="text" name="price" placeholder="Enter price"></td>
             </tr>
             <tr>
                 <td>______image_______</td>
-                <td><input type="file" name="file"></td>
+                <td><input type="file" name="image"></td>
             </tr>
             <tr>
-                <td>=============></td>
-                <td><button type="submit">Save</button></td>
+                <td></td>
+                <td><button type="submit" class="btn btn-primary">Save</button></td>
             </tr>
         </table>
     </form>
@@ -39,7 +39,7 @@
     <br><br><br>
     <tr>
         <td colspan="8">
-            <b><h1 align="center">Danh Sach Do Noi That</h1></b>
+            <h1 align="center">Danh Sach Do Noi That</h1></b>
         </td>
     </tr>
     <div align="center">

@@ -30,6 +30,6 @@ class NoithatController extends Controller
         ]);
         NoiThat::create($request->all());
         return redirect()->route('index')
-            ->with('Da them 1 noi that √');
+            ->with('Ban da them 1 noi that √');
     }
 }

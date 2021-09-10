@@ -15,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [Front\NoithatController::class, 'index']);
+Route::post('/',[Front\NoithatController::class,'index'])->name('index');
 Route::get('/', [Front\NoithatController::class, 'view']);
 Route::post('commit',[Front\NoithatController::class, 'commit'])->name('commit');
